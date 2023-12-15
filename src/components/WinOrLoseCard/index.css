@@ -1,0 +1,114 @@
+/* Write your code here. */
+.won-or-lose-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff33;
+  border: 3px solid #ffffff30;
+  width: 85%;
+  border-radius: 24px;
+  padding: 16px;
+  margin: auto;
+}
+@media screen and (min-width: 768px) {
+  .won-or-lose-container {
+    width: 80%;
+    padding: 32px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .won-or-lose-container {
+    width: 70%;
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .won-or-lose-container {
+    width: 60%;
+  }
+}
+.details-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  order: 1;
+}
+@media screen and (min-width: 992px) {
+  .details-card {
+    order: 0;
+  }
+}
+.game-status {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffffff;
+}
+@media screen and (min-width: 992px) {
+  .game-status {
+    font-size: 64px;
+  }
+}
+.score-label {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+  color: #6a59ff;
+  text-align: center;
+  margin: 0;
+}
+@media screen and (min-width: 992px) {
+  .score-label {
+    font-size: 36px;
+  }
+}
+.score-value {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: bold;
+  color: #6a59ff;
+  text-align: center;
+  margin: 0;
+}
+@media screen and (min-width: 992px) {
+  .score-value {
+    font-size: 48px;
+  }
+}
+.play-btn {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  color: #3d3d3d;
+  background-color: #ffce27;
+  border: none;
+  border-radius: 20px;
+  padding: 16px;
+  margin: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  cursor: pointer;
+  outline: none;
+}
+.img-section {
+  display: flex;
+  justify-content: center;
+  order: 0;
+}
+@media screen and (min-width: 992px) {
+  .img-section {
+    order: 1;
+  }
+}
+.win-or-lose-img {
+  width: 150px;
+  height: 200px;
+}
+@media screen and (min-width: 992px) {
+  .win-or-lose-img {
+    width: 350px;
+    height: 450px;
+  }
+}
